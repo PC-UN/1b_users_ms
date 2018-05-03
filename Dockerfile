@@ -8,3 +8,5 @@ ADD Gemfile.lock /users_ms/Gemfile.lock
 
 RUN bundle install
 ADD . /users_ms
+
+EXPOSE 3308
