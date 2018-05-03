@@ -4,7 +4,8 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
-
+#Gem for connect ldap
+gem 'net-ldap'
 #Gems for authentication
 gem 'bcrypt', '~> 3.1.7'
 gem 'active_model_serializers'
