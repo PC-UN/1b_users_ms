@@ -5048,3 +5048,404 @@ Processing by WsusersController#checkUsername as HTML
 Completed 200 OK in 15ms (Views: 5.4ms | ActiveRecord: 6.8ms)
 
 
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:34:37 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/media/juancami/Archivador/P/Repo/SA-project/1b_users_ms/app/controllers/wsusers_controller.rb:20: syntax error, unexpected =>, expecting keyword_end
+                    :return => { :userValid => :boolean, :us
+                              ^
+/media/juancami/Archivador/P/Repo/SA-project/1b_users_ms/app/controllers/wsusers_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/wsusers_controller.rb:20: syntax error, unexpected =>, expecting keyword_end
+app/controllers/wsusers_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:35:09 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/media/juancami/Archivador/P/Repo/SA-project/1b_users_ms/app/controllers/wsusers_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/wsusers_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:35:29 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (15.7ms)
+Completed 200 OK in 20ms (Views: 19.4ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:43 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (4.5ms)
+Completed 200 OK in 8ms (Views: 8.1ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:44 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (3.7ms)
+Completed 200 OK in 9ms (Views: 8.5ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:44 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (3.4ms)
+Completed 200 OK in 7ms (Views: 7.3ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:44 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (4.9ms)
+Completed 200 OK in 9ms (Views: 8.7ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:44 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (3.6ms)
+Completed 200 OK in 7ms (Views: 7.0ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:44 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (3.2ms)
+Completed 200 OK in 6ms (Views: 6.1ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:44 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.7ms)
+Completed 200 OK in 5ms (Views: 5.3ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:44 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (3.3ms)
+Completed 200 OK in 7ms (Views: 6.6ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:44 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.8ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:44 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.8ms)
+Completed 200 OK in 6ms (Views: 6.2ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:44 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.3ms)
+Completed 200 OK in 5ms (Views: 4.8ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:44 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (8.1ms)
+Completed 200 OK in 11ms (Views: 11.1ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:44 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.3ms)
+Completed 200 OK in 5ms (Views: 5.1ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:44 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.2ms)
+Completed 200 OK in 5ms (Views: 4.9ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:44 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (3.6ms)
+Completed 200 OK in 7ms (Views: 6.9ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:44 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.2ms)
+Completed 200 OK in 5ms (Views: 4.7ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.2ms)
+Completed 200 OK in 5ms (Views: 5.1ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (5.0ms)
+Completed 200 OK in 9ms (Views: 8.6ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.6ms)
+Completed 200 OK in 5ms (Views: 5.2ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.4ms)
+Completed 200 OK in 5ms (Views: 4.7ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.1ms)
+Completed 200 OK in 5ms (Views: 4.6ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.4ms)
+Completed 200 OK in 10ms (Views: 9.5ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.1ms)
+Completed 200 OK in 5ms (Views: 4.8ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.1ms)
+Completed 200 OK in 5ms (Views: 4.8ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.2ms)
+Completed 200 OK in 5ms (Views: 5.3ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.5ms)
+Completed 200 OK in 7ms (Views: 7.1ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.5ms)
+Completed 200 OK in 7ms (Views: 6.3ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.5ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.0ms)
+Completed 200 OK in 5ms (Views: 4.7ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.7ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (3.5ms)
+Completed 200 OK in 7ms (Views: 6.8ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.1ms)
+Completed 200 OK in 7ms (Views: 6.6ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (3.8ms)
+Completed 200 OK in 7ms (Views: 6.9ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (3.8ms)
+Completed 200 OK in 7ms (Views: 7.3ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:36:45 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (2.0ms)
+Completed 200 OK in 5ms (Views: 4.9ms)
+
+
+Started GET "/wsusers/wsdl" for 127.0.0.1 at 2018-05-07 16:37:28 -0500
+Processing by WsusersController#_generate_wsdl as HTML
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/wsdl.builder (4.0ms)
+Completed 200 OK in 13ms (Views: 12.7ms)
+
+
+Started POST "/wsusers/action" for 127.0.0.1 at 2018-05-07 16:37:43 -0500
+Processing by WsusersController#checkUserId as HTML
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder (0.7ms)
+Completed 200 OK in 16ms (Views: 3.4ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/wsusers/action" for 127.0.0.1 at 2018-05-07 16:37:58 -0500
+Processing by WsusersController#checkUserId as HTML
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder (0.8ms)
+Completed 200 OK in 25ms (Views: 4.4ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/wsusers/action" for 127.0.0.1 at 2018-05-07 16:38:09 -0500
+Processing by WsusersController#checkUserId as HTML
+  [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 234], ["LIMIT", 1]]
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder (1.4ms)
+Completed 200 OK in 11ms (Views: 8.3ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/wsusers/action" for 127.0.0.1 at 2018-05-07 16:38:27 -0500
+Processing by WsusersController#checkUserId as HTML
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder (1.0ms)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/wsusers/action" for 127.0.0.1 at 2018-05-07 16:38:47 -0500
+Processing by WsusersController#checkUserId as HTML
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder (0.9ms)
+Completed 200 OK in 28ms (Views: 4.7ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/wsusers/action" for 127.0.0.1 at 2018-05-07 16:38:48 -0500
+Processing by WsusersController#checkUserId as HTML
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder (0.9ms)
+Completed 200 OK in 10ms (Views: 6.2ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/wsusers/action" for 127.0.0.1 at 2018-05-07 16:38:52 -0500
+Processing by WsusersController#checkUserId as HTML
+  [1m[36mUser Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder (0.9ms)
+Completed 200 OK in 10ms (Views: 7.2ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/wsusers/action" for 127.0.0.1 at 2018-05-07 16:39:07 -0500
+Processing by WsusersController#checkUsername as HTML
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "test#1"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["username", "test#1"], ["LIMIT", 1]]
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder (0.8ms)
+Completed 200 OK in 11ms (Views: 5.7ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/wsusers/action" for 127.0.0.1 at 2018-05-07 16:40:00 -0500
+Processing by WsusersController#checkUserId as HTML
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder (0.6ms)
+Completed 200 OK in 17ms (Views: 4.2ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/wsusers/action" for 127.0.0.1 at 2018-05-07 16:40:11 -0500
+Processing by WsusersController#checkUserId as HTML
+  [1m[36mUser Exists (2.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder (1.0ms)
+Completed 200 OK in 25ms (Views: 5.8ms | ActiveRecord: 4.7ms)
+
+
+Started POST "/wsusers/action" for 127.0.0.1 at 2018-05-07 16:40:23 -0500
+Processing by WsusersController#checkUsername as HTML
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "test#1"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["username", "test#1"], ["LIMIT", 1]]
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder (0.9ms)
+Completed 200 OK in 12ms (Views: 8.3ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/wsusers/action" for 127.0.0.1 at 2018-05-07 16:40:27 -0500
+Processing by WsusersController#checkUsername as HTML
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "test#3"], ["LIMIT", 1]]
+  Rendering /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder
+  Rendered /home/juancami/.rvm/gems/ruby-2.4.0/gems/wash_out-0.12.0/app/views/wash_out/rpc/response.builder (0.9ms)
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.6ms)
+
+
