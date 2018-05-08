@@ -16,4 +16,7 @@ Rails.application.routes.draw do
   patch  '/user/:id'       => 'users#update'
   delete '/user/:id'       => 'users#destroy'
 
+  # publis as webservice...
+  wash_out :wsusers
+
 end
