@@ -11,7 +11,7 @@ Rails.application.routes.draw do
 
   # User actions
   get    '/users'          => 'users#index'
-  get    '/user'           => 'users#current'
+  get    '/user'           => 'users#check'
   post   '/user'           => 'users#create'
   patch  '/user/:id'       => 'users#update'
   delete '/user/:id'       => 'users#destroy'
