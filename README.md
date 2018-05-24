@@ -14,7 +14,23 @@ mutation {
   }
 }
 ```
-
+### Editar usuario
+```graphql
+mutation {
+  updateUser(id: 1, 
+    user: {
+      email: "jaasuarezga@gmail.com",
+      username: "jairo"
+    }, 
+    token: {
+      token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MjcyNzk2MzYsInN1YiI6MX0.wOzchFWLoC2W_nN9_ySiKwxZP3308d8AmMF4IBR62As"
+    }) {
+    id
+    email
+    username
+  }
+}
+```
 ### Autenticacion
 
 ```graphql
