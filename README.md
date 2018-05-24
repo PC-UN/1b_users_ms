@@ -1,24 +1,57 @@
-# README
+# Microservice users
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Querys y Mutations
 
-Things you may want to cover:
+### Crear usuario
+```graphql
+mutation {
+  createUser(user: {
+    email: "jaasuarezga@unal.edu.co",
+    password: "test1234",
+    username: "jaasuarezga"
+  }){
+    email
+  }
+}
+```
 
-* Ruby version
+### Autenticacion
 
-* System dependencies
+```graphql
+mutation {
+	createSession(auth: {
+    auth: {
+      email: "jaasuarezga@unal.edu.co",
+      password: "test1234"
+    }
+  }){
+  	jwt
+  }
+}
+```
 
-* Configuration
+### Autenticacion ldap
 
-* Database creation
+```graphql
+mutation {
+	auth(auth:{
+    email: "jaasuarezga",
+    password: "test1234",
+  }){
+    answer
+  }
+}
+```
 
-* Database initialization
+### Verificacion de sesión
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```graphql
+query {
+  checkSession(token:{
+    token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MjU4NDIyOTAsInN1YiI6MX0.kgZfm5Pe_g0l_Z8jI1ATq_VRrws1pAw7g29P3XB0TSo"
+  }){
+    id
+    username
+  }
+}
+```

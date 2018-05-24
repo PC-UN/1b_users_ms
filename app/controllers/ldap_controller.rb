@@ -17,19 +17,19 @@ class LdapController < ApplicationController
     def create
         email = params[:email]
         password = params[:password]
-        email = email[/\A\w+/].downcase
+        
         if connect()
             ldap = Net::LDAP.new(
                 host: 'pcun-ldap',
                 port: 389,
                 auth: {
                     method: :simple,
-                    dn: "cn=" + email + "@unal.edu.co, ou=pcun,dc=arqsoft,dc=unal,dc=edu,dc=co",
+                    dn: "cn=" + email + ", ou=pcun,dc=arqsoft,dc=unal,dc=edu,dc=co",
                     password: password
                 }
             )
             if ldap.bind
-                query = "select * from users where email LIKE '" + email + "@unal.edu.co'"
+                query = "select * from users where email LIKE '" + email + "'"
                 results = ActiveRecord::Base.connection.exec_query(query)
                 if results.present?
                     @newAuth = ObjAuth.new(email, password, "true")
